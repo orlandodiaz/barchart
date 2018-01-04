@@ -1,0 +1,32 @@
+[2018-01-04 13:25:37        barchart.py] INFO    - 6 stocks will be downloaded
+[2018-01-04 13:25:37        barchart.py] INFO    - DCIX - Requesting 5min data for ticker
+[2018-01-04 13:25:37        barchart.py] INFO    - AAPL - Requesting 5min data for ticker
+[2018-01-04 13:25:37        barchart.py] INFO    - TWTR - Requesting 5min data for ticker
+[2018-01-04 13:25:37        barchart.py] DEBUG   - Building dataframe dictionary
+[2018-01-04 13:25:37  connectionpool.py] DEBUG   - Starting new HTTPS connection (1): marketdata.websol.barchart.com
+[2018-01-04 13:25:37  connectionpool.py] DEBUG   - Starting new HTTPS connection (1): marketdata.websol.barchart.com
+[2018-01-04 13:25:37  connectionpool.py] DEBUG   - Starting new HTTPS connection (1): marketdata.websol.barchart.com
+[2018-01-04 13:25:40  connectionpool.py] DEBUG   - https://marketdata.websol.barchart.com:443 "GET /getHistory.json?startDate=20090203000000-06&dividends=true&symbol=TWTR&volume=sum&maxRecords=15000&key=1ab9d5c67b2b35fc622bb63e686eaa27&sessionFilter=EFK&apikey=db1cf917d8b8547742f179bf472285db&splits=true&interval=5&jerg=true&type=minutes&order=asc&nearby=1 HTTP/1.1" 200 None
+[2018-01-04 13:25:40        barchart.py] DEBUG   - application/json
+[2018-01-04 13:25:40        barchart.py] INFO    - TWTR - SUCCESS
+[2018-01-04 13:25:40        barchart.py] INFO    -   FB - Requesting 5min data for ticker
+[2018-01-04 13:25:40  connectionpool.py] DEBUG   - Starting new HTTPS connection (1): marketdata.websol.barchart.com
+[2018-01-04 13:25:40  connectionpool.py] DEBUG   - https://marketdata.websol.barchart.com:443 "GET /getHistory.json?startDate=20090203000000-06&dividends=true&symbol=AAPL&volume=sum&maxRecords=15000&key=1ab9d5c67b2b35fc622bb63e686eaa27&sessionFilter=EFK&apikey=db1cf917d8b8547742f179bf472285db&splits=true&interval=5&jerg=true&type=minutes&order=asc&nearby=1 HTTP/1.1" 200 None
+[2018-01-04 13:25:40  connectionpool.py] DEBUG   - https://marketdata.websol.barchart.com:443 "GET /getHistory.json?startDate=20090203000000-06&dividends=true&symbol=DCIX&volume=sum&maxRecords=15000&key=1ab9d5c67b2b35fc622bb63e686eaa27&sessionFilter=EFK&apikey=db1cf917d8b8547742f179bf472285db&splits=true&interval=5&jerg=true&type=minutes&order=asc&nearby=1 HTTP/1.1" 200 None
+[2018-01-04 13:25:40        barchart.py] DEBUG   - application/json
+[2018-01-04 13:25:40        barchart.py] INFO    - AAPL - SUCCESS
+[2018-01-04 13:25:40        barchart.py] INFO    - SNAP - Requesting 5min data for ticker
+[2018-01-04 13:25:40  connectionpool.py] DEBUG   - Starting new HTTPS connection (1): marketdata.websol.barchart.com
+[2018-01-04 13:25:40        barchart.py] DEBUG   - application/json
+[2018-01-04 13:25:40        barchart.py] INFO    - DCIX - SUCCESS
+[2018-01-04 13:25:40        barchart.py] INFO    -    A - Requesting 5min data for ticker
+[2018-01-04 13:25:40  connectionpool.py] DEBUG   - Starting new HTTPS connection (1): marketdata.websol.barchart.com
+[2018-01-04 13:25:44  connectionpool.py] DEBUG   - https://marketdata.websol.barchart.com:443 "GET /getHistory.json?startDate=20090203000000-06&dividends=true&symbol=A&volume=sum&maxRecords=15000&key=1ab9d5c67b2b35fc622bb63e686eaa27&sessionFilter=EFK&apikey=db1cf917d8b8547742f179bf472285db&splits=true&interval=5&jerg=true&type=minutes&order=asc&nearby=1 HTTP/1.1" 200 None
+[2018-01-04 13:25:44        barchart.py] DEBUG   - application/json
+[2018-01-04 13:25:44        barchart.py] INFO    -    A - SUCCESS
+[2018-01-04 13:25:45  connectionpool.py] DEBUG   - https://marketdata.websol.barchart.com:443 "GET /getHistory.json?startDate=20090203000000-06&dividends=true&symbol=SNAP&volume=sum&maxRecords=15000&key=1ab9d5c67b2b35fc622bb63e686eaa27&sessionFilter=EFK&apikey=db1cf917d8b8547742f179bf472285db&splits=true&interval=5&jerg=true&type=minutes&order=asc&nearby=1 HTTP/1.1" 200 None
+[2018-01-04 13:25:45        barchart.py] DEBUG   - application/json
+[2018-01-04 13:25:45        barchart.py] INFO    - SNAP - SUCCESS
+[2018-01-04 13:25:45  connectionpool.py] DEBUG   - https://marketdata.websol.barchart.com:443 "GET /getHistory.json?startDate=20090203000000-06&dividends=true&symbol=FB&volume=sum&maxRecords=15000&key=1ab9d5c67b2b35fc622bb63e686eaa27&sessionFilter=EFK&apikey=db1cf917d8b8547742f179bf472285db&splits=true&interval=5&jerg=true&type=minutes&order=asc&nearby=1 HTTP/1.1" 200 None
+[2018-01-04 13:25:45        barchart.py] DEBUG   - application/json
+[2018-01-04 13:25:45        barchart.py] INFO    -   FB - SUCCESS
